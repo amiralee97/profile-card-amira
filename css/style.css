@@ -17,7 +17,7 @@ body {
 }
 
 .profile-box {
-    background-color: #ff574a;
+    background-color: #4a68ff;
     text-align: center;
     padding: 40px 90px;
     color: #fff;
@@ -61,10 +61,10 @@ body {
 
 .profile-box button {
     background-color: #fff;
-    color: #ff574a;
+    color: #4a68ff;
     border: none;
     outline: none;
-    box-shadow: 0 5px 10px rgba(244, 67, 54, .5);
+    box-shadow: 0 5px 10px rgba(54, 143, 244, 0.5);
     padding: 15px 60px;
     cursor: pointer;
     border-radius: 30px;
@@ -79,12 +79,12 @@ body {
     font-weight: 500;
 }
 
-.social-media, .fa-brands {
+.social-media, .fa-brands, .fa-light {
     width: 100%;
-    margin: 15px 5px;
+    margin: 15px;
     cursor: pointer;
     display: flex;
-    padding-left: 15px;
+    justify-content: space-around;
 }
 
 .social-media i {
